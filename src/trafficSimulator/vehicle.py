@@ -42,7 +42,7 @@ class Vehicle:
             self.x += self.v*dt + self.a*dt*dt/2
         
         # Update acceleration
-        alpha = 0
+        alpha = 0.9
         if lead:
             delta_x = lead.x - self.x - lead.l
             delta_v = self.v - lead.v

@@ -43,12 +43,12 @@ sim.create_roads([
 sim.create_gen({
     'vehicle_rate': 10,
     'vehicles': [
-        #[1, {"path": [12, 5, *range(16, 30), 6, 7, *range(31, 45), 8, 9, *range(46, 60), 10, 11, *range(61, 75),
-        #4, 5, *range(16, 30), 6, 7, *range(31, 45), 8, 9, *range(46, 60), 10, 11, *range(61, 75), 4, 0, 1, 14]}], #two loops, then exit on vertical road
-        #3[1, {"path": [12, 5, *range(16, 30), 6, 7, *range(31, 45), 8, 9, *range(46, 60), 10, 11, *range(61, 75),
-        #4, 5, *range(16, 30), 6, 7, *range(31, 45), 8, 9, *range(46, 60), 10, 2, 3, 15]}], #one loop, then travel to horizontal road and exit
-        #[1, {"path": [12, 0, 1, 9, *range(46, 60), 10, 2, 3, 7, *range(31, 45), 8, 9, *range(46, 60), 10, 11, *range(61, 75), 4, 0, 1, 14 ]}], # take vertical road, then travel and take horizontal road, then travel back to vertical road and exit
-        #[1, {"path": [13, 2, 1, 9, *range(46, 60), 10, 11, *range(61, 75), 4, 0, 1, 14]}],
+        [1, {"path": [12, 5, *range(16, 30), 6, 7, *range(31, 45), 8, 9, *range(46, 60), 10, 11, *range(61, 75),
+        4, 5, *range(16, 30), 6, 7, *range(31, 45), 8, 9, *range(46, 60), 10, 11, *range(61, 75), 4, 0, 1, 14]}], #two loops, then exit on vertical road
+        [1, {"path": [12, 5, *range(16, 30), 6, 7, *range(31, 45), 8, 9, *range(46, 60), 10, 11, *range(61, 75),
+        4, 5, *range(16, 30), 6, 7, *range(31, 45), 8, 9, *range(46, 60), 10, 2, 3, 15]}], #one loop, then travel to horizontal road and exit
+        [1, {"path": [12, 0, 1, 9, *range(46, 60), 10, 2, 3, 7, *range(31, 45), 8, 9, *range(46, 60), 10, 11, *range(61, 75), 4, 0, 1, 14 ]}], # take vertical road, then travel and take horizontal road, then travel back to vertical road and exit
+        [1, {"path": [13, 2, 1, 9, *range(46, 60), 10, 11, *range(61, 75), 4, 0, 1, 14]}],
         [1, {"path": [13, 11, *range(61, 75), 4, 5, *range(16, 30), 6, 7, *range(31, 45), 8, 9, *range(46, 60), 10, 11, *range(61, 75),  4, 5, *range(16, 30), 6, 15]}]
 
     ]
