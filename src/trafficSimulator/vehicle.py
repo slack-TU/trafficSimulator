@@ -13,7 +13,7 @@ class Vehicle:
         self.init_properties()
 
     def set_default_config(self):    
-        self.l = 4
+        self.l = 2
         self.s0 = 4
         self.T = 1
         self.v_max = 16.6
